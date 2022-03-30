@@ -1,0 +1,747 @@
+{
+    "content": "countdowns",
+    "intro": {
+        "elements": [
+            {
+                "close-eyes": [
+                    "variation 1",
+                    "variation 2",
+                    "variation 3",
+                    "variation 4",
+                    "variation 5",
+                    "variation 6",
+                    "variation 7",
+                    "variation 8",
+                    "variation 9",
+                    "variation 10"
+                ],
+                "into-position": [
+                    "variation 1",
+                    "variation 2",
+                    "variation 3",
+                    "variation 4",
+                    "variation 5",
+                    "variation 6",
+                    "variation 7",
+                    "variation 8",
+                    "variation 9",
+                    "variation 10"
+                ],
+                "glasses-blankets": [
+                    "variation 1",
+                    "variation 2",
+                    "variation 3",
+                    "variation 4",
+                    "variation 5",
+                    "variation 6",
+                    "variation 7",
+                    "variation 8",
+                    "variation 9",
+                    "variation 10"
+                ]
+            }
+        ]
+    },
+    "themes": [
+        {
+            "theme": "beach",
+            "elements": [
+                {
+                    "fantasy-transition": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "establish-setting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "setting-feelings": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "deliberate-search": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "first-motive": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "reward-acting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "enter-entity": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "fantastic-introduction": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "cute-deepen-dream": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "find-place-rest": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "committing-to-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "increased-calm-from-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "sleep-in-fantasy": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "confirm-body-asleep": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ]
+                }
+            ]
+        },
+        {
+            "theme": "forest",
+            "elements": [
+                {
+                    "fantasy-transition": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "establish-setting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "setting-feelings": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "deliberate-search": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "first-motive": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "reward-acting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "enter-entity": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "fantastic-introduction": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "cute-deepen-dream": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "find-place-rest": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "committing-to-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "increased-calm-from-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "sleep-in-fantasy": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "confirm-body-asleep": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ]
+                }
+            ]
+        },
+        {
+            "theme": "dreamland",
+            "elements": [
+                {
+                    "fantasy-transition": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "establish-setting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "setting-feelings": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "deliberate-search": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "first-motive": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "reward-acting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "enter-entity": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "fantastic-introduction": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "cute-deepen-dream": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "find-place-rest": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "committing-to-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "increased-calm-from-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "sleep-in-fantasy": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "confirm-body-asleep": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ]
+                }
+            ]
+        },
+        {
+            "theme": "river",
+            "elements": [
+                {
+                    "fantasy-transition": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "establish-setting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "setting-feelings": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "deliberate-search": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "first-motive": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "reward-acting": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "enter-entity": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "fantastic-introduction": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "cute-deepen-dream": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "find-place-rest": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "committing-to-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "increased-calm-from-place": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "sleep-in-fantasy": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ],
+                    "confirm-body-asleep": [
+                        "variation 1",
+                        "variation 2",
+                        "variation 3",
+                        "variation 4",
+                        "variation 5",
+                        "variation 6",
+                        "variation 7",
+                        "variation 8",
+                        "variation 9",
+                        "variation 10"
+                    ]
+                }
+            ]
+        }
+    ]
+}

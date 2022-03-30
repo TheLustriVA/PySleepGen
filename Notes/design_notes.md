@@ -26,3 +26,7 @@ Databases might be useful in the future, but for now, JSON is fine.
 ## First Task
 
 Build a simple script generator capable of using content files to output an .md file.
+
+## 10-to-1 section
+
+Location / Theme (set) / Actions (set)

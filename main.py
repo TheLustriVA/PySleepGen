@@ -127,5 +127,5 @@ def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "no
     return result
 
 
-print(get_licence("attrib-no-derivative"))
+print(create_stanza_batch(size=20))
     
