@@ -127,5 +127,5 @@ def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "no
     return result
 
 
-print(create_stanza_batch(size=20))
+print(create_stanza_batch(size=6))
     

@@ -4,35 +4,35 @@
         "elements": [
             {
                 "close-eyes": [
-                    "variation 1",
-                    "variation 2",
-                    "variation 3",
-                    "variation 4",
-                    "variation 5",
-                    "variation 6",
-                    "variation 7",
-                    "variation 8",
-                    "variation 9",
+                    "Now, I want you to close your eyes as I lead you down into a deep sleep through a count of ten to one.",
+                    "I want to lead you through your imagination to a place of deep rest, guiding you through a downward count of ten to one. To begin, gently close your eyes.",
+                    "Closing your eyes if you haven't already, we're going to use a guided meditation counting from ten to one to take you into a refreshing sleep.",
+                    "Now, please, let your eyes close as I count down from ten to one. With each count, I will guide you deeper into the dream world, and deep, healing sleep.",
+                    "So, relaxing and making sure your eyes are closed, focus on my voice as I guide you through a dream medition, counting from ten to one until you are asleep.",
+                    "Focus on my voice, focus on each word as I lead you through a guided meditation through the count of ten to one and into a deep, nurturing slumber.",
+                    "If you're ready, close your eyes and rest while I step you from ten to one through a guided meditation and down into relaxation and sleep.",
+                    "Let your breathing relax and your eyes close. Tonight I'm going to count from ten to one, with each step guiding you down into a deep, refreshing sleep.",
+                    "Come with me on a journey through your imagination and into a deep sleep. So close your eyes as I count you down from ten to one, with each step bringing you closer to rest.",
                     "variation 10"
                 ],
                 "into-position": [
-                    "variation 1",
-                    "variation 2",
-                    "variation 3",
-                    "variation 4",
-                    "variation 5",
-                    "variation 6",
-                    "variation 7",
-                    "variation 8",
-                    "variation 9",
-                    "variation 10"
+                    "Find a position, wherever you are, that you could fall asleep in, free of tense muscles or unusual positions.",
+                    "Shift your body so you're in a position that does not require your muscles to maintain it, as the goal here is relaxation and sleep.",
+                    "Be mindful of your body's position. If you're tightening a muscle to maintain the position, find a way to move so that muscle is relaxed.",
+                    "Let your mind sweep across your body, deliberately relaxing any still-tense muscles as we prepare for sleep.",
+                    "Make sure you're completely at rest, relaxing any muscles that might be keeping your leg bent or an arm raised. Melt into your bed for me.",
+                    "Whether you are seated or laying down, now is the time to make sure your body is as relaxed as it can be, ready for you to fall asleep.",
+                    "You're doing well. Now, let your body go and relax any muscles that might be preventing you from sinking fully into your place of comfort.",
+                    "From the largest muscle to the smallest, deliberately relax each one until only gravity has sway over your position.",
+                    "Make sure you're sitting or laying down in a position that will allow you to sleep, with all muscles relaxed.",
+                    "Find your favourite comfortable spot and wiggle down into it until you come to rest with all muscles relaxed and disengaged."
                 ],
                 "glasses-blankets": [
-                    "variation 1",
-                    "variation 2",
-                    "variation 3",
-                    "variation 4",
-                    "variation 5",
+                    "Take this last minute to sort out any stray clothes, glasses, or blankets, so nothing can distract you from simply relaxing.",
+                    "If you've left your glasses on, or find blankets or clothes poking into you, now would be the best time to gently just deal with those.",
+                    "Before we move on, give yourself the time to adjust or remove glasses, straighten your headphones, or tuck yourself in nice and cozy.",
+                    "If you get into a relaxing position and find yourself distracted by glasses, clothes, or blankets, give yourself a moment now to sort those out.",
+                    "Adjust any glasses, headphones, or eye masks you might be wearing so that they don't form a distraction, ensuring you can relax throughout the meditation.",
                     "variation 6",
                     "variation 7",
                     "variation 8",
@@ -42,22 +42,38 @@
             }
         ]
     },
+    "element-guide" : [
+        { "fantasy-transition" : "Variations on transition from waking to fantasising."},
+        { "establish-setting" : "Variations on establishing the setting."},
+        { "setting-feelings" : "Variations on positive feelings from setting."},
+        { "deliberate-search" : "Variations on deliberate sensory search."},
+        { "first-motive" : "Variations on first motive to act."},
+        { "reward-acting" : "Variations on reward for acting."},
+        { "enter-entity" : "Variations on the introduction of a benevolent entity."},
+        { "fantastic-introduction" : "Variations on fantastic introductions."},
+        { "cute-deepen-dream" : "Variations on cute occassion to deepen dream-thinking."},
+        { "find-place-rest" : "Variations on finding comfortable place to rest."},
+        { "committing-to-place" : "Variations on committing to comfortable place to rest."},
+        { "increased-calm-from-place" : "Variations on increased calm from comfortable place to rest."},
+        { "sleep-in-fantasy" : "Variations on falling asleep in fantasy."},
+        { "confirm-body-asleep" : "Variations on confirming that your body is asleep."}
+    ],
     "themes": [
         {
             "theme": "beach",
             "elements": [
                 {
                     "fantasy-transition": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "The colours and shapes behind your closed eyes lose focus as you begin to imagine yourself on a",
+                        "Your thoughts begin to shift and morph as your imagination takes you to a",
+                        "Closing your eyes allows your imagination to take hold, gently sending you to a",
+                        "As you close your eyes and relax, thoughts and images begin to swirl in your mind. You slowly find yourself on a",
+                        "With your eyes closed, your mind is free to wonder, with memories and fantasies blurring together until you find yourself on a",
+                        "Your imagination takes over as your eyes close, gently sending you to a",
+                        "Your attention begins to wonder as you close your eyes. Your imagination begins piecing together thoughts of you on a",
+                        "As the dark settles in behind your closed eyes, thoughts and visions come together, and you find yourself on a",
+                        "Once your eyes are closed, a fleeting memory from the day blossoms out into a vivid scene of you on a",
+                        "As your eyes close, your imagination takes hold, weaving together a vision from old daydreams, and you find yourself on a"
                     ],
                     "establish-setting": [
                         "variation 1",
