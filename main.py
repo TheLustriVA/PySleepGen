@@ -1,11 +1,14 @@
 import json
 import random
 import time
+import logging
 
-# Acceptible values for 'type' include noun, verb, and adjective.
+logging.basicConfig(level=logging.INFO)
 
 def get_beginning(type="noun"):
     """_Returns a randomly chosen start of a simple line from the json file_
+    
+    Acceptible values for 'type' include noun, verb, and adjective.
     
     Defaults to noun content only.
 
@@ -232,22 +235,65 @@ def countdown_average_length(iterations):
         countdown_holder.append(len(create_countdown().split()))
     countdown_average = sum(countdown_holder)/len(countdown_holder)
     end = time.perf_counter()
+    logging.info(f"{iterations} iterations of the main loop in countdown_average_length() took {end-start:0.4f} seconds")
+    return countdown_average
+
+def script_average_length(iterations):
+    """A function for finding the average word-count of a specific call to create_script_files()
+
+    Args:
+        iterations (_int_): _The number of scripts to create for averaging their word count_
+
+    Returns:
+        _int_: _The average(mean) number of words in a script._
+    """
+    countdown_holder = []
+    start = time.perf_counter()
+    for iteration in range(iterations):
+        countdown_holder.append(len(create_countdown().split()))
+    countdown_average = sum(countdown_holder)/len(countdown_holder)
+    end = time.perf_counter()
     print(f"{iterations} iterations of the main loop in countdown_average_length() took {end-start:0.4f} seconds")
     return countdown_average
-    
 
-def create_script_files(amount=1):
+def create_script_files(amount=1, mode="test"):
+    """Main function for creating and publishing script files, with some built-in telemetary.
+    
+    Can be operated in 'test' mode to output the average word-count of the number of files supplied to the 'amount' argument. It will return an integer in this case.
+    
+    Can be operated in 'publish' mode to output content directly to files. 
+
+    Args:
+        amount (int, optional): _description_. Defaults to 1.
+        mode (str, optional): _description_. Defaults to "test".
+
+    Returns:
+        _type_: _description_
+    """    
+    assert mode in ['test', 'publish'],"Assertion Error: mode argument must be either 'test' or 'publish'."
+    test_catch = []
     for count, file in enumerate(range(amount)):
         filename = f"output/sleep_script_{count}.txt"
-        with open(filename, "w", encoding='utf-8') as destination_file:
-            destination_file.writelines(create_intro())
-            destination_file.writelines("\n\n")
-            destination_file.writelines(create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2))
-            destination_file.writelines("\n\n")
-            destination_file.writelines(create_countdown())
-            destination_file.writelines("\n\n")
-            destination_file.writelines(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
-            
+        if mode == "test":
+            test_part = []
+            test_part.append(create_intro().split())
+            test_part.append(create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2).split())
+            test_part.append(create_countdown().split())
+            test_part.append(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8).split())
+            test_catch.append(len([item for sublist in test_part for item in sublist]))      
+        elif mode == "publish":   
+            with open(filename, "w", encoding='utf-8') as destination_file:
+                destination_file.writelines(create_intro())
+                destination_file.writelines("\n\n")
+                destination_file.writelines(create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2))
+                destination_file.writelines("\n\n")
+                destination_file.writelines(create_countdown())
+                destination_file.writelines("\n\n")
+                destination_file.writelines(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
+                logging.info(f"Completed writing script to {filename}")
+                return 0
+    avg_result = sum(test_catch)/len(test_catch)
+    return avg_result          
             
 
-            
+print(create_script_files(amount=1000, mode="test"))
