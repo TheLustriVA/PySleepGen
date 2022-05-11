@@ -1,5 +1,6 @@
 import json
 import random
+import time
 
 # Acceptible values for 'type' include noun, verb, and adjective.
 
@@ -67,23 +68,39 @@ def get_simple_batch(type="noun", size=4):
     return result
         
     
-def print_all_simple(type="noun"):
-    """_Prints every combination of simple beginning and ending_
+def get_all_simple(word_type="all"):
+    """_Returns every combination of simple beginning and ending_
     
-    Defaults to noun content only.
+    Defaults to all word-types.
+    
+    Returns:
+        _list_: _A list of all simple affirmations depending on the word_type argument._
     """
-    with open(r'content\simple_line_start.json') as start:
-        begin_chunk = json.load(start)
-    beginnings = begin_chunk[type]
+    types = []
+    if word_type == "all":
+        types = ["noun", "verb", "adjective"]
+    elif word_type in ["noun", "verb", "adjective"]:
+        types.append(word_type)
+    else:
+        print("Valid arguments for print_all_simple() are 'all', 'noun', 'verb', and 'adjective'.")
+        
+    for word in types:
+        with open(r'content\simple_line_start.json') as start:
+            begin_chunk = json.load(start)
+        beginnings = begin_chunk[word]
+        
+        with open(r'content\simple_line_end.json') as end:
+            end_chunk = json.load(end)
+        endings = end_chunk[word]
     
-    with open(r'content\simple_line_end.json') as end:
-        end_chunk = json.load(end)
-    endings = end_chunk[type]
+    lines = []
     
     for beginning in beginnings:
-        print("\n")
         for ending in endings:
-            print(beginning, ending, "\n")
+            result = f"{beginning} {ending}\n"
+            lines.append(result)
+    
+    return lines
 
 
 def display_licence_names():
@@ -92,14 +109,30 @@ def display_licence_names():
     for key in licence_block.keys():
         print(key + "\n")   
 
-
 def get_licence(type="share-commercial"):
     with open(r'content\CC_licence.json') as source:
         licence_block = json.load(source)
     return licence_block[type]
 
+def create_stanza(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"]):
+    result = ""
+    for type in structure:
+        result = result + get_simple(type)
+    return result
+
+def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=4):
+    result = ""
+    for i in range(size):
+        result = result + create_stanza(structure) + "\n\n"
+    return result
+
 
 def create_intro():
+    """Uses content from content/introductions.json to create an introduction module for sleep-aid scripts.
+
+    Returns:
+        _type_: _description_
+    """    
     with open(r'content\introductions.json') as source:
         content_block = json.load(source)
     first_lines = content_block['first']
@@ -110,24 +143,19 @@ def create_intro():
     warning = warnings[random.randint(0, (len(warnings) - 1))]
     follow = follows[random.randint(0, (len(follows) - 1))]
     
-    return first_line + "\n" + warning + "\n" + follow + "\n"
-
-
-def create_stanza(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"]):
-    result = ""
-    for type in structure:
-        result = result + get_simple(type)
-    return result
-
-
-def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=4):
-    result = ""
-    for i in range(size):
-        result = result + create_stanza(structure) + "\n\n"
-    return result
-
+    intro_module = first_line + "\n" + warning + "\n" + follow + "\n"
+    
+    return intro_module
 
 def create_countdown(theme="beach"):
+    """Uses content from content/countdown.json to create a countdown module for sleep-aid scripts.
+
+    Args:
+        theme (str, optional): _The thematic block of content in countdown.json from which content should be chosen_. Defaults to "beach".
+
+    Returns:
+        _str_: _Returns a muulty-line string with the entire countdown section for a sleep-aid script._
+    """    
     with open("content/countdown.json", "r", encoding='utf-8') as creative_source:
         content_block = json.load(creative_source)
     intro_content = content_block['intro']['elements']
@@ -136,9 +164,9 @@ def create_countdown(theme="beach"):
     glasses_blankets = random.choice(intro_content['glasses-blankets'])
     
     intro = f"""
-    {close_eyes}\n
-    {into_position}\n
-    {glasses_blankets}
+{close_eyes}\n
+{into_position}\n
+{glasses_blankets}
     """
     
     countdown_content = content_block['themes'][theme]['elements']
@@ -158,25 +186,68 @@ def create_countdown(theme="beach"):
     confirm_body_asleep = random.choice(countdown_content['confirm-body-asleep'])
     
     countdown = f"""
-    {fantasy_transition }\n
-    {establish_setting}\n
-    {setting_feelings}\n
-    {deliberate_search}\n
-    {first_motive}\n
-    {reward_acting}\n
-    {enter_entity}\n
-    {fantastic_entity}\n
-    {cute_deepen_dream}\n
-    {find_place_rest}\n
-    {committing_to_place}\n
-    {increased_calm}\n
-    {sleep_in_fantasy}\n
-    {confirm_body_asleep}
+Ten\n
+{fantasy_transition }
+{establish_setting}\n
+Nine\n
+{setting_feelings}\n
+Eight\n
+{deliberate_search}
+{first_motive}\n
+Seven\n
+{reward_acting}\n
+Six\n
+{enter_entity}
+{fantastic_entity}\n
+Five\n
+{cute_deepen_dream}\n
+Four\n
+{find_place_rest}
+{committing_to_place}\n
+Three\n
+{increased_calm}\n
+Two\n
+{sleep_in_fantasy}\n
+One\n
+{confirm_body_asleep}
     """
     
-    script = f"{intro}\n{countdown}"
+    countdown_module = f"{intro}\n{countdown}"
     
-    return script
+    return countdown_module
 
-print(create_countdown())
+
+def countdown_average_length(iterations):
+    """A function for finding the average word-count of a specific call to create_countdown()
+
+    Args:
+        iterations (_int_): _The number of countdown modules to create for averaging their word count_
+
+    Returns:
+        _int_: _The average(mean) number of words in a countdown module._
+    """
+    countdown_holder = []
+    start = time.perf_counter()
+    for iteration in range(iterations):
+        countdown_holder.append(len(create_countdown().split()))
+    countdown_average = sum(countdown_holder)/len(countdown_holder)
+    end = time.perf_counter()
+    print(f"{iterations} iterations of the main loop in countdown_average_length() took {end-start:0.4f} seconds")
+    return countdown_average
     
+
+def create_script_files(amount=1):
+    for count, file in enumerate(range(amount)):
+        filename = f"output/sleep_script_{count}.txt"
+        with open(filename, "w", encoding='utf-8') as destination_file:
+            destination_file.writelines(create_intro())
+            destination_file.writelines("\n\n")
+            destination_file.writelines(create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2))
+            destination_file.writelines("\n\n")
+            destination_file.writelines(create_countdown())
+            destination_file.writelines("\n\n")
+            destination_file.writelines(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
+            
+            
+
+            
