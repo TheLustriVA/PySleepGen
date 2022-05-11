@@ -127,5 +127,56 @@ def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "no
     return result
 
 
-print(create_stanza_batch(size=6))
+def create_countdown(theme="beach"):
+    with open("content/countdown.json", "r", encoding='utf-8') as creative_source:
+        content_block = json.load(creative_source)
+    intro_content = content_block['intro']['elements']
+    close_eyes = random.choice(intro_content['close-eyes'])
+    into_position = random.choice(intro_content['into-position'])
+    glasses_blankets = random.choice(intro_content['glasses-blankets'])
+    
+    intro = f"""
+    {close_eyes}\n
+    {into_position}\n
+    {glasses_blankets}
+    """
+    
+    countdown_content = content_block['themes'][theme]['elements']
+    fantasy_transition = random.choice(countdown_content['fantasy-transition'])
+    establish_setting = random.choice(countdown_content['establish-setting'])
+    setting_feelings = random.choice(countdown_content['setting-feelings'])
+    deliberate_search = random.choice(countdown_content['deliberate-search'])
+    first_motive = random.choice(countdown_content['first-motive'])
+    reward_acting = random.choice(countdown_content['reward-acting'])
+    enter_entity = random.choice(countdown_content['enter-entity'])
+    fantastic_entity = random.choice(countdown_content['fantastic-entity'])
+    cute_deepen_dream = random.choice(countdown_content['cute-deepen-dream'])
+    find_place_rest = random.choice(countdown_content['find-place-rest'])
+    committing_to_place = random.choice(countdown_content['committing-to-place'])
+    increased_calm = random.choice(countdown_content['increased-calm-from-place'])
+    sleep_in_fantasy = random.choice(countdown_content['sleep-in-fantasy'])
+    confirm_body_asleep = random.choice(countdown_content['confirm-body-asleep'])
+    
+    countdown = f"""
+    {fantasy_transition }\n
+    {establish_setting}\n
+    {setting_feelings}\n
+    {deliberate_search}\n
+    {first_motive}\n
+    {reward_acting}\n
+    {enter_entity}\n
+    {fantastic_entity}\n
+    {cute_deepen_dream}\n
+    {find_place_rest}\n
+    {committing_to_place}\n
+    {increased_calm}\n
+    {sleep_in_fantasy}\n
+    {confirm_body_asleep}
+    """
+    
+    script = f"{intro}\n{countdown}"
+    
+    return script
+
+print(create_countdown())
     

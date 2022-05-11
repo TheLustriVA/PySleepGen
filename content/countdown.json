@@ -1,68 +1,63 @@
 {
     "content": "countdowns",
     "intro": {
-        "elements": [
-            {
-                "close-eyes": [
-                    "Now, I want you to close your eyes as I lead you down into a deep sleep through a count of ten to one.",
-                    "I want to lead you through your imagination to a place of deep rest, guiding you through a downward count of ten to one. To begin, gently close your eyes.",
-                    "Closing your eyes if you haven't already, we're going to use a guided meditation counting from ten to one to take you into a refreshing sleep.",
-                    "Now, please, let your eyes close as I count down from ten to one. With each count, I will guide you deeper into the dream world, and deep, healing sleep.",
-                    "So, relaxing and making sure your eyes are closed, focus on my voice as I guide you through a dream medition, counting from ten to one until you are asleep.",
-                    "Focus on my voice, focus on each word as I lead you through a guided meditation through the count of ten to one and into a deep, nurturing slumber.",
-                    "If you're ready, close your eyes and rest while I step you from ten to one through a guided meditation and down into relaxation and sleep.",
-                    "Let your breathing relax and your eyes close. Tonight I'm going to count from ten to one, with each step guiding you down into a deep, refreshing sleep.",
-                    "Come with me on a journey through your imagination and into a deep sleep. So close your eyes as I count you down from ten to one, with each step bringing you closer to rest.",
-                    "variation 10"
-                ],
-                "into-position": [
-                    "Find a position, wherever you are, that you could fall asleep in, free of tense muscles or unusual positions.",
-                    "Shift your body so you're in a position that does not require your muscles to maintain it, as the goal here is relaxation and sleep.",
-                    "Be mindful of your body's position. If you're tightening a muscle to maintain the position, find a way to move so that muscle is relaxed.",
-                    "Let your mind sweep across your body, deliberately relaxing any still-tense muscles as we prepare for sleep.",
-                    "Make sure you're completely at rest, relaxing any muscles that might be keeping your leg bent or an arm raised. Melt into your bed for me.",
-                    "Whether you are seated or laying down, now is the time to make sure your body is as relaxed as it can be, ready for you to fall asleep.",
-                    "You're doing well. Now, let your body go and relax any muscles that might be preventing you from sinking fully into your place of comfort.",
-                    "From the largest muscle to the smallest, deliberately relax each one until only gravity has sway over your position.",
-                    "Make sure you're sitting or laying down in a position that will allow you to sleep, with all muscles relaxed.",
-                    "Find your favourite comfortable spot and wiggle down into it until you come to rest with all muscles relaxed and disengaged."
-                ],
-                "glasses-blankets": [
-                    "Take this last minute to sort out any stray clothes, glasses, or blankets, so nothing can distract you from simply relaxing.",
-                    "If you've left your glasses on, or find blankets or clothes poking into you, now would be the best time to gently just deal with those.",
-                    "Before we move on, give yourself the time to adjust or remove glasses, straighten your headphones, or tuck yourself in nice and cozy.",
-                    "If you get into a relaxing position and find yourself distracted by glasses, clothes, or blankets, give yourself a moment now to sort those out.",
-                    "Adjust any glasses, headphones, or eye masks you might be wearing so that they don't form a distraction, ensuring you can relax throughout the meditation.",
-                    "Take some time now to check there are no glasses, headphones, clothes, or blankets causing you slight discomfort. Gently remove them as distractions from your space.",
-                    "Now might be a good time to undoe the top button of your shirt or slacks, take off your glasses, and make sure nothing will distract you from being comfortable.",
-                    "If you think your glasses, blankets, or clothes might distract you during the meditation, do what you need to sort those out now, gently and calmly",
-                    "Now is the perfect time to straighten out your blankets, remove your glasses, and make sure nothing can distract you while you relax.",
-                    "Glasses, belts, heavy clothing and wayward blankets might distract you during the meditation, so take some time now to prevent them from doing so."
-                ]
-            }
-        ]
+        "elements": {
+            "close-eyes": [
+                "Now, I want you to close your eyes as I lead you down into a deep sleep through a count of ten to one.",
+                "I want to lead you through your imagination to a place of deep rest, guiding you through a downward count of ten to one. To begin, gently close your eyes.",
+                "Closing your eyes if you haven't already, we're going to use a guided meditation counting from ten to one to take you into a refreshing sleep.",
+                "Now, please, let your eyes close as I count down from ten to one. With each count, I will guide you deeper into the dream world, and deep, healing sleep.",
+                "So, relaxing and making sure your eyes are closed, focus on my voice as I guide you through a dream medition, counting from ten to one until you are asleep.",
+                "Focus on my voice, focus on each word as I lead you through a guided meditation through the count of ten to one and into a deep, nurturing slumber.",
+                "If you're ready, close your eyes and rest while I step you from ten to one through a guided meditation and down into relaxation and sleep.",
+                "Let your breathing relax and your eyes close. Tonight I'm going to count from ten to one, with each step guiding you down into a deep, refreshing sleep.",
+                "Come with me on a journey through your imagination and into a deep sleep. So close your eyes as I count you down from ten to one, with each step bringing you closer to rest."
+            ],
+            "into-position": [
+                "Find a position, wherever you are, that you could fall asleep in, free of tense muscles or unusual positions.",
+                "Shift your body so you're in a position that does not require your muscles to maintain it, as the goal here is relaxation and sleep.",
+                "Be mindful of your body's position. If you're tightening a muscle to maintain the position, find a way to move so that muscle is relaxed.",
+                "Let your mind sweep across your body, deliberately relaxing any still-tense muscles as we prepare for sleep.",
+                "Make sure you're completely at rest, relaxing any muscles that might be keeping your leg bent or an arm raised. Melt into your bed for me.",
+                "Whether you are seated or laying down, now is the time to make sure your body is as relaxed as it can be, ready for you to fall asleep.",
+                "You're doing well. Now, let your body go and relax any muscles that might be preventing you from sinking fully into your place of comfort.",
+                "From the largest muscle to the smallest, deliberately relax each one until only gravity has sway over your position.",
+                "Make sure you're sitting or laying down in a position that will allow you to sleep, with all muscles relaxed.",
+                "Find your favourite comfortable spot and wiggle down into it until you come to rest with all muscles relaxed and disengaged."
+            ],
+            "glasses-blankets": [
+                "Take this last minute to sort out any stray clothes, glasses, or blankets, so nothing can distract you from simply relaxing.",
+                "If you've left your glasses on, or find blankets or clothes poking into you, now would be the best time to gently just deal with those.",
+                "Before we move on, give yourself the time to adjust or remove glasses, straighten your headphones, or tuck yourself in nice and cozy.",
+                "If you get into a relaxing position and find yourself distracted by glasses, clothes, or blankets, give yourself a moment now to sort those out.",
+                "Adjust any glasses, headphones, or eye masks you might be wearing so that they don't form a distraction, ensuring you can relax throughout the meditation.",
+                "Take some time now to check there are no glasses, headphones, clothes, or blankets causing you slight discomfort. Gently remove them as distractions from your space.",
+                "Now might be a good time to undoe the top button of your shirt or slacks, take off your glasses, and make sure nothing will distract you from being comfortable.",
+                "If you think your glasses, blankets, or clothes might distract you during the meditation, do what you need to sort those out now, gently and calmly",
+                "Now is the perfect time to straighten out your blankets, remove your glasses, and make sure nothing can distract you while you relax.",
+                "Glasses, belts, heavy clothing and wayward blankets might distract you during the meditation, so take some time now to prevent them from doing so."
+            ]
+        }
     },
-    "element-guide" : [
-        { "fantasy-transition" : "Variations on transition from waking to fantasising."},
-        { "establish-setting" : "Variations on establishing the setting."},
-        { "setting-feelings" : "Variations on positive feelings from setting."},
-        { "deliberate-search" : "Variations on deliberate sensory search."},
-        { "first-motive" : "Variations on first motive to act."},
-        { "reward-acting" : "Variations on reward for acting."},
-        { "enter-entity" : "Variations on the introduction of a benevolent entity."},
-        { "fantastic-introduction" : "Variations on fantastic introductions."},
-        { "cute-deepen-dream" : "Variations on cute occassion to deepen dream-thinking."},
-        { "find-place-rest" : "Variations on finding comfortable place to rest."},
-        { "committing-to-place" : "Variations on committing to comfortable place to rest."},
-        { "increased-calm-from-place" : "Variations on increased calm from comfortable place to rest."},
-        { "sleep-in-fantasy" : "Variations on falling asleep in fantasy."},
-        { "confirm-body-asleep" : "Variations on confirming that your body is asleep."}
-    ],
-    "themes": [
-        {
-            "theme": "beach",
-            "elements": [
-                {
+    "element-guide": {
+            "fantasy-transition": "Variations on transition from waking to fantasising.",
+            "establish-setting": "Variations on establishing the setting.",
+            "setting-feelings": "Variations on positive feelings from setting.",
+            "deliberate-search": "Variations on deliberate sensory search.",
+            "first-motive": "Variations on first motive to act.",
+            "reward-acting": "Variations on reward for acting.",
+            "enter-entity": "Variations on the introduction of a benevolent entity.",
+            "fantastic-entity": "Variations on a benevolent but strange happening, entity, or object entering the story.",
+            "cute-deepen-dream": "Variations on cute occassion to deepen dream-thinking.",
+            "find-place-rest": "Variations on finding comfortable place to rest.",
+            "committing-to-place": "Variations on committing to comfortable place to rest.",
+            "increased-calm-from-place": "Variations on increased calm from comfortable place to rest.",
+            "sleep-in-fantasy": "Variations on falling asleep in fantasy.",
+            "confirm-body-asleep": "Variations on confirming that your body is asleep."
+        },
+        "themes": {
+            "beach": {
+                "elements": {
                     "fantasy-transition": [
                         "The colours and shapes behind your closed eyes lose focus as you begin to imagine yourself on a",
                         "Your thoughts begin to shift and morph as your imagination takes you to a",
@@ -104,12 +99,7 @@
                         "You take in the details and sensations from the imaginary world around you, your senses seem pleased and at peace with this place.",
                         "Peering at the small detail around you, this imaginary world begins to take life, and you smile.",
                         "Searching around, you find details of a living world. Your other senses report the same - life is welcome here.",
-                        "Looking from the sand to the waves, you pick up on details and sensations you wouldn't expect from your imagination.",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "Looking from the sand to the waves, you pick up on details and sensations you wouldn't expect from your imagination."
                     ],
                     "first-motive": [
                         "You feel a gentle urge to walk further down the beach. The wind and the waves both seem to usher you along to explore more of what lies before you.",
@@ -125,639 +115,46 @@
                     ],
                     "reward-acting": [
                         "You feel a rare sense of clarity fill your mind as continue. Your senses are cleansed by the scene and you feel centered.",
-                        "A sense of wonder at the scene forming around you makes you chuckle gently in delight. Tension leaves parts of your body you weren't aware were tense.",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "A sense of wonder at the scene forming around you makes you chuckle gently in delight. Tension leaves parts of your body you weren't aware were tense."
                     ],
                     "enter-entity": [
                         "Fireflies, glowing brighter than you would expect, fly around you in spirals. You can hear laughing like the tinkling of little bells, making you smile.",
-                        "A small crab rides a wave onto the sand nearby. You can't be certain, but it appeared to wave to you, then wave for you to follow them. It was one of the cutest things you've ever seen.",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "A small crab rides a wave onto the sand nearby. You can't be certain, but it appeared to wave to you, then wave for you to follow them. It was one of the cutest things you've ever seen."
                     ],
-                    "fantastic-introduction": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                    "fantastic-entity": [
+                        "You look around as you walk, curious to note the appearance of sky-blue water fountaining upwards from halo-like rings spread along the beach.",
+                        "Lines of light, curling and darting in all directions, fly past you. They coallesce into several columns of spinning light along your path."
                     ],
                     "cute-deepen-dream": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "It took a moment to notice, but your feet are no longer touching the ground. You float along by will alone, the air around you pillowy and soft no matter the speed you travel.",
+                        "The waves along the beach begin to roll in one constant tube along the water-line. You walk over and kneel atop the crest and are gently carried along the beach in comfort."
                     ],
                     "find-place-rest": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "The need to rest fills your limbs, making them heavy. You look around and see smooth rocks large enough to lie on where a small, clear creek meets the ocean.",
+                        "The need to rest fills your limbs, making them heavy. You spot a hammock beneath the shade of a copse of palm trees, bottles of water and bowls of fruit waiting underneath.",
+                        "The need to rest fills your limbs, making them heavy. You catch sight of a rocky outcropping with plenty of shelter and smooth places to relax just above the high-tide mark."
                     ],
                     "committing-to-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "You know this is where you're going to rest. The sensation of being welcomed intensifies as you approach and you lie down. The sounds of the world around you here blend perfectly to calm you.",
+                        "It feels as though you've been led here, and so you lie down and close your eyes. The world around you seemingly conspires to sound and feel perfect as you sink into rest.",
+                        "Echoes in your mind tell you that this is the place where you will rest, and as you lie down, the sheer comfort of doing so makes you glad to have found such a perfect spot."
                     ],
                     "increased-calm-from-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "Your memories fade and your mind quietens as nature provides the perfect place for calm. This is your retreat, your mental getaway. It is yours, and it is wonderful.",
+                        "Everything fades away except for the perfect rhythm of the waves and the breeze in the trees. You begin to melt into yourself as you rest in your own special retreat.",
+                        "From head to toe, you melt into your surroundings as the perfect comfort of the spot soothes you, calms you, and quietens you. "
                     ],
                     "sleep-in-fantasy": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "You allow yourself to fall asleep there. Dreams fill your mind as the waves and breeze fill your senses with the sensation that all is right, all is well.",
+                        "The ease and rhythm of the world around you brings you to sleep. Sleep, filled with dreams, filled with comfort, filled with cleansing. You sleep.",
+                        "This place was always here so you could sleep, and sleep you do. You relax, you sink, you melt, into dreams of far-off places. Dreams, sleep, and calm."
                     ],
                     "confirm-body-asleep": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
+                        "You feel heavy, as though you are sinking into your bed. Every part of you drifts and becmes blurry. Nowhere do you stop and the world around you start. Sleep. Sleep.",
+                        "The gravity of sleep lies heavily on you as you become static, a fuzz the blurs into the fuzz of the world, the stars, the universe. Sleep. Sleep.",
+                        "Float - dreams lay atop these words and make them soft, your entire being drifting away into sleep and fantasy. Sleep well. Sleep. Sleep."
                     ]
                 }
-            ]
-        },
-        {
-            "theme": "forest",
-            "elements": [
-                {
-                    "fantasy-transition": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "establish-setting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "setting-feelings": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "deliberate-search": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "first-motive": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "reward-acting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "enter-entity": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "fantastic-introduction": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "cute-deepen-dream": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "find-place-rest": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "committing-to-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "increased-calm-from-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "sleep-in-fantasy": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "confirm-body-asleep": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ]
-                }
-            ]
-        },
-        {
-            "theme": "dreamland",
-            "elements": [
-                {
-                    "fantasy-transition": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "establish-setting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "setting-feelings": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "deliberate-search": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "first-motive": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "reward-acting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "enter-entity": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "fantastic-introduction": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "cute-deepen-dream": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "find-place-rest": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "committing-to-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "increased-calm-from-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "sleep-in-fantasy": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "confirm-body-asleep": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ]
-                }
-            ]
-        },
-        {
-            "theme": "river",
-            "elements": [
-                {
-                    "fantasy-transition": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "establish-setting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "setting-feelings": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "deliberate-search": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "first-motive": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "reward-acting": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "enter-entity": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "fantastic-introduction": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "cute-deepen-dream": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "find-place-rest": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "committing-to-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "increased-calm-from-place": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "sleep-in-fantasy": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ],
-                    "confirm-body-asleep": [
-                        "variation 1",
-                        "variation 2",
-                        "variation 3",
-                        "variation 4",
-                        "variation 5",
-                        "variation 6",
-                        "variation 7",
-                        "variation 8",
-                        "variation 9",
-                        "variation 10"
-                    ]
-                }
-            ]
+            }
         }
-    ]
-}
+    }

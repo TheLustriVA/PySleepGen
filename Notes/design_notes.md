@@ -73,7 +73,7 @@ Five
 
 Four
 
-13) <<You come across a rocky outcropping and a pool of clear water where a nearby creen runs into the ocean>> (variations on finding comfortable place to rest)
+13) <<You come across a rocky outcropping and a pool of clear water where a nearby creek runs into the ocean>> (variations on finding comfortable place to rest)
 14) <<The water is the perfect temperature as you lower yourself into the bubbling clear pool>> (variations on committing to comfortable place to rest)
 
 Three
@@ -90,3 +90,7 @@ One
 
 17) <<Your entire body is now at peace, relaxed into the soft land of sleep>> (variations on confirming that your body is asleep)
 17) <<Every cell in your body floats in a deep world of slumber>> (variations on confirming your body is asleep)
+
+## What I'm learning while building this
+
+ - It's probably better to work with replacement grammers than such large chunks of interchangable narrative. Should be a lot easier to implement with f-strings too.
