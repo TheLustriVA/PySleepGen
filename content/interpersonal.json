@@ -1,0 +1,632 @@
+{
+  "usage": "humanising scripts",
+  "categories": {
+    "communication": {
+      "pet names": {
+        "masc": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "fem": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "enby": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "play names": {
+        "light": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "heavy": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "praising": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "degrading": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "taboo": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        }
+      },
+      "relationship-identifiers": {
+        "masc": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "fem": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "enby": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "insulting": {
+        "light": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "heavy": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "angry": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "taboo": {
+          "masc": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "fem": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ],
+          "enby": [
+            {
+              "word": "None",
+              "weight": 0.8,
+              "tags": ["topic", "theme", "setting", "etc"]
+            }
+          ]
+        },
+        "edifying": {
+          "light": {
+            "masc": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ],
+            "fem": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ],
+            "enby": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ]
+          },
+          "heavy": {
+            "masc": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ],
+            "fem": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ],
+            "enby": [
+              {
+                "word": "None",
+                "weight": 0.8,
+                "tags": ["topic", "theme", "setting", "etc"]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "actions": {
+      "every-day": {
+        "household": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "college": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "employment": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "travel": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "recreational": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "social": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "spiritual": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "fantasy": {
+        "household": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "training": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "employment": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "travel": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "recreational": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "social": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "magical": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "adventurous": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "naval": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "spiritual": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "scifi": {
+        "household": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "training": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "employment": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "travel": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "recreational": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "social": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "magical": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "exploration": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "ship-based": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "astronomical": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "time": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "spiritual": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "sexual": {
+        "vanilla": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "hardcore": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "kink": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "taboo": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "casual": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "relationship": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "violent": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "aftercare": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "foreplay": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "climactic": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "petting": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "distant": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      },
+      "sleep": {
+        "short-term": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "overnight": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ],
+        "long-term": [
+          {
+            "word": "None",
+            "weight": 0.8,
+            "tags": ["topic", "theme", "setting", "etc"]
+          }
+        ]
+      }
+    }
+  }
+}
