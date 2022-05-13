@@ -296,4 +296,3 @@ def create_script_files(amount=1, mode="test"):
     return avg_result          
             
 
-print(create_script_files(amount=1000, mode="test"))
