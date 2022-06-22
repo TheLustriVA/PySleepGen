@@ -291,8 +291,8 @@ def create_script_files(amount=1, mode="test"):
                 destination_file.writelines("\n\n")
                 destination_file.writelines(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
                 logging.info(f"Completed writing script to {filename}")
-                return 0
     avg_result = sum(test_catch)/len(test_catch)
     return avg_result          
             
 
+create_script_files(amount=30000, mode="publish")
