@@ -262,6 +262,8 @@ def create_script_files(amount=1, mode="test"):
     Can be operated in 'test' mode to output the average word-count of the number of files supplied to the 'amount' argument. It will return an integer in this case.
     
     Can be operated in 'publish' mode to output content directly to files. 
+    
+    Can be operated in "dump" mode to dump text to the console for video recording.
 
     Args:
         amount (int, optional): _description_. Defaults to 1.
@@ -270,7 +272,7 @@ def create_script_files(amount=1, mode="test"):
     Returns:
         _type_: _description_
     """    
-    assert mode in ['test', 'publish'],"Assertion Error: mode argument must be either 'test' or 'publish'."
+    assert mode in ['test', 'publish', 'dump'],"Assertion Error: mode argument must be either 'test', 'publish', or 'dump."
     test_catch = []
     for count, file in enumerate(range(amount)):
         filename = f"output/sleep_script_{count}.txt"
@@ -292,7 +294,13 @@ def create_script_files(amount=1, mode="test"):
                 destination_file.writelines(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
                 logging.info(f"Completed writing script to {filename}")
                 return 0
+        elif mode == "dump":
+            print(create_intro())
+            print(create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2))
+            print(create_countdown())
+            print(create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8))
     avg_result = sum(test_catch)/len(test_catch)
     return avg_result          
             
 
+create_script_files(100000, mode="dump")
