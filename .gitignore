@@ -132,3 +132,6 @@ dmypy.json
 
 # Test output files
 output_V1/
+content/ml_dataset.jsonl
+content/countdown.json
+content/countdown.json
