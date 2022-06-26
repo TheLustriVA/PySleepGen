@@ -1,8 +1,10 @@
+from base64 import encode
 import json
 import random
 import time
 import logging
-import json_lines
+#import json_lines
+import csv
 
 logging.basicConfig(level=logging.INFO)
 
@@ -62,7 +64,7 @@ def get_simple(type="noun"):
     """
     beginning = get_beginning(type)
     ending = get_ending(type)
-    simple = beginning + " " + ending + "\n"
+    simple = beginning + " " + ending
     return simple
 
 
@@ -139,14 +141,20 @@ def get_licence(type="share-commercial"):
 def create_stanza(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], mode="publish"):
     result = ""
     ml_result = []
+    tg_result = []
+    tg_context = { "adjective" : "|compliment", "verb" : "|instruction", "noun" : "|comfort"}
     if mode == "publish":
-        for type in structure:
-            result = result + get_simple(type)
+        for wordtype in structure:
+            result = result + get_simple(wordtype)
         return result
     elif mode == "narrative":
-        for type in structure:
-            ml_result.append(get_simple(type))
+        for wordtype in structure:
+            ml_result.append(get_simple(wordtype))
         return result
+    elif mode == "textgen":
+        for wordtype in structure:
+            tg_result.append(get_simple(wordtype) + tg_context[wordtype])
+        return tg_result
 
 def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=4, mode="publish"):
     """_Creates a batch of size "size" of stanzas with the structure held in the "structure" argument list._
@@ -161,6 +169,7 @@ def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "no
     """
     result = ""
     stanza_ML = []
+    stanza_TG = []
     if mode == "publish":
         for i in range(size):
             result = result + create_stanza(structure, "publish") + "\n\n"
@@ -170,6 +179,11 @@ def create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "no
             for sentence in create_stanza(structure, "narrative"):
                 stanza_ML.append(sentence)
         return stanza_ML
+    elif mode == "textgen":
+        for i in range(size):
+            for sentence in create_stanza(structure, "textgen"):
+                stanza_TG.append(sentence)
+        return stanza_TG
 
 
 
@@ -195,6 +209,8 @@ def create_intro(mode="publish"):
     
     if mode == "narrative":
         return [ first_line, warning, follow ]
+    elif mode == "textgen":
+        return [ first_line+"|greeting", warning+"|instruction", follow+"|instruction"]
     
     intro_module = first_line + "\n" + warning + "\n" + follow + "\n"
     
@@ -207,7 +223,7 @@ def create_countdown(theme="beach", mode="publish"):
         theme (str, optional): _The thematic block of content in countdown.json from which content should be chosen_. Defaults to "beach".
 
     Returns:
-        _str_: _Returns a muulty-line string with the entire countdown section for a sleep-aid script._
+        _str_: _Returns a multy-line string with the entire countdown section for a sleep-aid script._
     """    
     with open("content/countdown.json", "r", encoding='utf-8') as creative_source:
         content_block = json.load(creative_source)
@@ -242,29 +258,29 @@ def create_countdown(theme="beach", mode="publish"):
     
     if mode == "publish":
         countdown = f"""
-    Ten\n
+    Ten|Number\n
     {fantasy_transition }
     {establish_setting}\n
-    Nine\n
+    Nine|Number\n
     {setting_feelings}\n
-    Eight\n
+    Eight|Number\n
     {deliberate_search}
     {first_motive}\n
-    Seven\n
+    Seven|Number\n
     {reward_acting}\n
-    Six\n
+    Six|Number\n
     {enter_entity}
     {fantastic_entity}\n
-    Five\n
+    Five|Number\n
     {cute_deepen_dream}\n
-    Four\n
+    Four|Number\n
     {find_place_rest}
     {committing_to_place}\n
-    Three\n
+    Three|Number\n
     {increased_calm}\n
-    Two\n
+    Two|Number\n
     {sleep_in_fantasy}\n
-    One\n
+    One|Number\n
     {confirm_body_asleep}
         """
         
@@ -328,7 +344,65 @@ def create_countdown(theme="beach", mode="publish"):
         for element2 in elements2:
             countdown.append(element2)
         return countdown    
-            
+    elif mode == "textgen":
+        intro_content = content_block['intro']['elements']
+        close_eyes = random.choice(intro_content['close-eyes'])
+        into_position = random.choice(intro_content['into-position'])
+        glasses_blankets = random.choice(intro_content['glasses-blankets'])
+        countdown_content = content_block['themes'][theme]['elements']
+        fantasy_transition = random.choice(countdown_content['fantasy-transition'])
+        establish_setting = random.choice(countdown_content['establish-setting'])
+        setting_feelings = random.choice(countdown_content['setting-feelings'])
+        deliberate_search = random.choice(countdown_content['deliberate-search'])
+        first_motive = random.choice(countdown_content['first-motive'])
+        reward_acting = random.choice(countdown_content['reward-acting'])
+        enter_entity = random.choice(countdown_content['enter-entity'])
+        fantastic_entity = random.choice(countdown_content['fantastic-entity'])
+        cute_deepen_dream = random.choice(countdown_content['cute-deepen-dream'])
+        find_place_rest = random.choice(countdown_content['find-place-rest'])
+        committing_to_place = random.choice(countdown_content['committing-to-place'])
+        increased_calm = random.choice(countdown_content['increased-calm-from-place'])
+        sleep_in_fantasy = random.choice(countdown_content['sleep-in-fantasy'])
+        confirm_body_asleep = random.choice(countdown_content['confirm-body-asleep'])
+    
+        fantasma = fantasy_transition + establish_setting
+        phantom = []
+        fantasmagora = fantasma.split('.')
+        for fantasm in fantasmagora:
+            fantasm += '.|fantasy'
+            phantom.append(fantasm)
+        
+        
+        countdown = []
+        elements1 = [
+            close_eyes+"|introduction",
+            into_position+"|instruction",
+            glasses_blankets+"|instruction"
+        ]
+        
+        elements2 = [
+            setting_feelings+"|fantasy",
+            deliberate_search+"|fantasy",
+            first_motive+"|fantasy",
+            reward_acting+"|fantasy",
+            enter_entity+"|fantasy",
+            fantastic_entity+"|fantasy",
+            cute_deepen_dream+"|fantasy",
+            find_place_rest+"|fantasy",
+            committing_to_place+"|fantasy",
+            increased_calm+"|fantasy",
+            sleep_in_fantasy+"|fantasy",
+            confirm_body_asleep+"|fantasy"
+        ]
+        for element in elements1:
+            countdown.append(element)
+        for fantasm in phantom[0:-1]:
+            countdown.append(fantasm)
+        for element2 in elements2:
+            countdown.append(element2)
+        return countdown 
+    
+      
 def countdown_average_length(iterations):
     """A function for finding the average word-count of a specific call to create_countdown(mode="publish")
 
@@ -375,6 +449,8 @@ def create_script_files(amount=1, mode="test"):
     Can be operated in "dump" mode to dump text to the console for video recording. (OUTPUTS AS: Console text.)
     
     Can be operated in "narrative" mode to prepare scripts for ML operations (OUTPUTS AS: One json_lines file.)
+    
+    Can be oerated in "textgen" mode to prepare scripts for textgenrnn (OUTPUT AS: Multiple CSV files.)
 
     Args:
         amount (int, optional): _description_. Defaults to 1.
@@ -383,7 +459,8 @@ def create_script_files(amount=1, mode="test"):
     Returns:
         _type_: _description_
     """    
-    assert mode in ['test', 'publish', 'dump', 'narrative'],"Assertion Error: mode argument must be either 'test', 'publish', or 'dump."
+    assert mode in ['test', 'publish', 'dump', 'narrative', 'textgen'],"Assertion Error: mode argument must be either 'test', 'publish', or 'dump."
+    rnn_csv_path = "C:\\Code\\PySleepGen\\content\\sleep_rnn_data.csv"
     test_catch = []
     for count, file in enumerate(range(amount)):
         filename = f"output/sleep_script_{count}.txt"
@@ -414,9 +491,22 @@ def create_script_files(amount=1, mode="test"):
                 ml_data_doc['full_context'].append(c_line)           
             with open("content\ml_dataset.jsonl", "a+", encoding="utf-8") as ml_file:
                 ml_record = json.dumps(ml_data_doc, ensure_ascii=False)
-                print(ml_record)
                 ml_file.write(ml_record + '\n')
-                # be aware this is outputting to a JSON_lines file - not a JSON file. 
-                # I'll build a handler function for that above.
-            logging.info("Completed dumping training data to ml_dataset.jsonl")         
+            logging.info("Completed dumping training data to ml_dataset.jsonl") 
+        elif mode == "textgen":
+            rnn_doc = []
+            for intro_line_c in create_intro(mode="textgen"):
+                rnn_doc.append(intro_line_c)
+            for s_line_c in create_stanza_batch(structure = ["adjective", "verb", "noun"], size = 2, mode="textgen"):
+                rnn_doc.append(s_line_c)
+            for c_line_c in create_countdown(mode="textgen"):
+                rnn_doc.append(c_line_c)
+            for s_line_c2 in create_stanza_batch(structure=["adjective", "adjective", "verb", "verb", "noun", "noun"], size=8, mode="textgen"):
+                rnn_doc.append(s_line_c2)
+            with open(f"output_rnn/rnn_sleep_script.csv", "a", encoding='utf-8') as writer:
+                 for data_line in rnn_doc:
+                    writer.write(data_line + "\n")
+            logging.info(f"Completed dumping training data to output_rnn/rnn_sleep_script{count}.csv") 
+                    
             
+create_script_files(amount=10000, mode="textgen")
